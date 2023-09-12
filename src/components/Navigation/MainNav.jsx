@@ -8,7 +8,7 @@ const MainNav = () => {
     return(
      <div className='NavDiv'>
             <nav className='Nav'>
-                <Link to="/home">
+                <Link to="/">
                     <h3 className='homeHeader'>Home </h3> 
                 </Link>               
              
@@ -20,13 +20,13 @@ const MainNav = () => {
                     <h3 className='searchHeader'>Search </h3>
                 </Link>
            
-                <Link to="'/user/create">
+                 <Link to="/user/create">
                     <h3 className='LogOutHeader'>Sign Up </h3>
                 </Link>
-           
+           {/* 
                 <Link to="/signIn">
                     <h3 className='LogInHeader'>Log In </h3>
-                </Link>
+                </Link> */}
                 </nav>
             </div>
            

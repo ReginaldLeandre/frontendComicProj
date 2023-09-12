@@ -23,15 +23,18 @@ const Characters = () => {
         
       } else {
         console.log(characterResponse);
+        
+            navigate('/*')
+          }
         // context update for error handling might be called
-      }
+      
     }
   
 
     useEffect(() => {
+    
         handleRequest()
-    }, {})
-
+      }); 
 
     return(
         <div className="=Characters">

@@ -6,4 +6,32 @@
     padding: 10px 0; 
   }
   
+
+.NavDiv{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+  .Nav{
+    display: flex;
+  justify-content: space-between;
+  background-color: red;
+  border-radius: 10px;
+  }
+
+  .UserHeader{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   
+  
+  
+  .searchHeader{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+   .homeHeader{
+    margin-left: 10px;
+    margin-right: 10px;
+   } 

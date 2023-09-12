@@ -16,7 +16,7 @@ function CharacterDetails({ character }) {
       setCharacterData(characterResponse);
  
     } else {
-      navigate('/')
+      navigate('/*')
     }
   }
   

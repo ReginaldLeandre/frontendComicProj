@@ -48,9 +48,9 @@ const Search = () => {
       ) : (
         <ul>
           {searchResults.map((character) => (
-            <li key={character._id}>
+            <li className="CharacterListItem" key={character._id}>
               <Link to={`/character/${character.id}`}>
-                {character.name}
+                <h3 className='CharacterName'>{character.name}</h3>
                 {character.image && (
                   <img className="characterImage" src={character.image} alt={character.name} />
                 )}
