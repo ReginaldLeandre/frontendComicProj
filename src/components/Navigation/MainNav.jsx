@@ -12,17 +12,17 @@ const MainNav = () => {
                     <h3 className='homeHeader'>Home </h3> 
                 </Link>               
              
-                <Link to="/user/:id">
+                {/* <Link to="/user/:id">
                     <h3 className='UserHeader'>User Profile </h3>
-                </Link>
+                </Link> */}
     
                 <Link to="/search">            
                     <h3 className='searchHeader'>Search </h3>
                 </Link>
            
-                 <Link to="/user/create">
+                {/* <Link to="/user/create">
                     <h3 className='LogOutHeader'>Sign Up </h3>
-                </Link>
+                </Link> */}
            {/* 
                 <Link to="/signIn">
                     <h3 className='LogInHeader'>Log In </h3>
