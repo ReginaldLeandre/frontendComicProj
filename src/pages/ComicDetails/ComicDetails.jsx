@@ -27,7 +27,7 @@ function ComicDetails({ comic }) {
   useEffect(() => {
     
     handleRequest()
-  }); 
+  }, [id]); 
 
   return (
   <div>
