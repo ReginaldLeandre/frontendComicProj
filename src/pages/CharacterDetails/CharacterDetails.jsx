@@ -23,7 +23,7 @@ function CharacterDetails({ character }) {
   useEffect(() => {
     
     handleRequest()
-  }); 
+  }, [id]); 
 
   return (
     <div>
