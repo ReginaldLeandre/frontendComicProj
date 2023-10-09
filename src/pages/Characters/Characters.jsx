@@ -34,7 +34,7 @@ const Characters = () => {
     useEffect(() => {
     
         handleRequest()
-      }); 
+      }, []); 
 
     return(
         <div className="=Characters">
